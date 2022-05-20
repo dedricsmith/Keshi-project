@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Keshi | Store </title>
+<meta name="description" contents="Something random for the description">
+<link rel="stylesheet" href="css/style.css">
+<script src="store.js" async></script>
+</head>
+
+<body>
+<header class="main-header" >
+    <nav class="main-nav nav">
+        <ul>
+            <li><a href="index.html"> Home</a> </li>
+            <li> <a href="about.html">Tour Dates</a> </li>
+            <li> <a href="store.html">Store</a> </li>
+        </ul>
+    </nav>
+    
+    <h1 class="artist-name artist-name-large"> Keshi </h1>
+</header>
+
+<!--This is the ALBUMS section-->
+
+<section class="container content-section">
+    <h2 class="section-header" >Albums</h2>
+    <div class="shop-items">
+          
+
+            <!--Bandiads-->
+            <div class="shop-item">
+            <span class="shop-item-title"> Bandiads </span>
+            <img class="shop-item-image" src="img/bandiads.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">11.99</span>
+                <button class="btn btn-primary shop-item-button" type="button"> Add to Cart</button>
+            </div>
+        </div>
+
+            <!--The Reaper-->
+            <div class="shop-item">
+                <span class="shop-item-title"> The Reaper </span>
+                <img class="shop-item-image" src="img/TheReaper.jpg">
+                <div class="shop-item-details">
+                <span class="shop-item-price">11.99</span>
+                <button class="btn btn-primary shop-item-button" type="button"> Add to Cart</button>
+                </div>
+            </div>
+        
+
+            <!--Gabriel-->
+            <div class="shop-item">
+                <span class="shop-item-title"> Gabriel </span>
+                <img class="shop-item-image" src="img/gabriel.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">11.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button"> Add to Cart</button>
+                </div>
+            </div>
+        
+
+        
+            <!--3pack-->
+            <div class="shop-item">
+                <span class="shop-item-title"> All 3 Albums </span>
+                <img class="shop-item-image" src="img/3pack.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">24.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button"> Add to Cart</button>
+                </div>
+            </div>
+        
+    </div>
+</div>
+</section>
+
+<!--This is the MERCH section-->
+
+<section class="container content-section">
+    <h2 class="section-header">Merch</h2>
+    <div class="shop-items">
+    <!--The T-Shirt-->
+                <div class="shop-item">
+                    <span class="shop-item-title"> T Shirt </span>
+                    <img class="shop-item-image" src="img/HEAVENTEE.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">24.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button"> Add to Cart</button>
+                    </div>
+                </div>
+
+
+        <!--The Hat-->    
+                <div class="shop-item">
+                    <span class="shop-item-title"> Beanie (Black) </span>
+                    <img class="shop-item-image" src="img/KESHIBLACKBEANIE.png">
+                    <div class="shop-item-details">    
+                        <span class="shop-item-price">29.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button"> Add to Cart</button>
+                    </div>
+                </div>
+    </div>
+</section>
+
+<!-- This is the CART section-->
+
+<section class="container content-section">
+    <h2 class="section-header">Cart</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="img/gabriel.jpg" width="100" height="100">
+                    <span class="cart-item-title">Gabriel</span>
+            </div>
+                    <span class="cart-price cart-column"> 11.99 </span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE FROM CART</button>
+                </div>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="img/KESHIBLACKBEANIE.png" width="100" height="100">
+                    <span class="cart-item-title">Black Beanie</span>
+            </div>
+                <span class="cart-price cart-column"> 29.99 </span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE FROM CART</button>
+                </div>
+        </div>
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">41.98</span>
+    </div>
+
+        <button class="btn btn-primary btn-purchase" type="button"> PURCHASE</button>
+ 
+</section>
+
+</body>
+<footer class="main-footer">
+    <div class="container main-footer-container">
+    <h3 class="artist-name"> KESHI </h3>
+  
+    <ul class="nav footer-nav footer-nav-links">
+        <li>
+            <a href="https://spotify.com" target="_blank">
+               <img src= "img/spotify.png">
+           </a>
+       </li>
+        
+       <li><a href="https://instagram.com" target="_blank">
+               <img src= "img/Insta.png">
+           </a>
+       </li>
+        <li>
+           <a href="https://youtube.com" target="_blank">
+               <img src= "img/Youtube.png">
+           </a>
+    </ul>
+  </div>
+  </footer>
+
+</html>
